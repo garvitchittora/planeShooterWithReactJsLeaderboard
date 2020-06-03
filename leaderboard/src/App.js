@@ -27,7 +27,7 @@ class Data extends React.Component {
     };
     
     const getData = () => {
-      sendHttpRequest('GET', 'http://garvitchittora.pythonanywhere.com/list').then(responseData => {
+      sendHttpRequest('GET', 'https://garvitchittora.pythonanywhere.com/list').then(responseData => {
         console.log(responseData);
         this.setState({data:responseData});
       });

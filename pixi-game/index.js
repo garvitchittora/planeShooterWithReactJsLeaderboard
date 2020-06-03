@@ -546,7 +546,7 @@ function GameOver() {
       };
       
       const sendData = () => {
-        sendHttpRequest('POST', 'http://garvitchittora.pythonanywhere.com/list', {
+        sendHttpRequest('POST', 'https://garvitchittora.pythonanywhere.com/list', {
           name: name ,
           score: highest_score
         })
